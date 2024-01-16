@@ -4,20 +4,26 @@ public class CuentaBancaria {
 	private String Titular;
 	private double Saldo;
 
-	public String dime_titular() {
+// metodo añadir constructor
+	public CuentaBancaria() {
+		Titular = "Gabriel";
+		Saldo = 50.00;
+
+	}
+
+	public String dime_titular() {// getter
 		return "El Titular de la cuenta es " + Titular;
 	}
 
-	public void establece_titular() {
+	public void establece_titular() {// setter
 		Titular = "Gabriel";
 	}
 
-	public double dime_saldo() {
-		return Saldo;
+	public String dime_saldo() {
+		return "El saldo de la cuenta es " + Saldo;
 	}
 
 	public void establece_saldo() {
-		Saldo = 500;
 		if (Saldo >= 0) {
 			Saldo = Saldo;
 
