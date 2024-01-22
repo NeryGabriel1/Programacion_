@@ -3,7 +3,7 @@ package POO3;
 import java.util.ArrayList;
 
 public class Receta {
-	private ArrayList<String> ingredientes;//crea una lista
+	private ArrayList<String> ingredientes;// crea una lista
 	private ArrayList<String> pasos;
 
 	// Constructor
@@ -41,7 +41,7 @@ public class Receta {
 		}
 	}
 
-	// Método para mostrar la reseta, para eso usamos el método to String
+	// Método para mostrar la reseta
 	public void mostrarReceta() {
 		int contador = 1;
 		System.out.println("Ingredientes:");
@@ -54,6 +54,7 @@ public class Receta {
 		System.out.println("Pasos:");
 		for (String paso : pasos) {
 			System.out.println(contador + "- " + paso + ".");
+			contador++;
 		}
 	}
 }
