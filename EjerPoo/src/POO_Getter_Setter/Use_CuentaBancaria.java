@@ -9,8 +9,7 @@ public class Use_CuentaBancaria {
 		System.out.println(cuentaGabriel.dime_titular());
 
 		cuentaGabriel.establece_saldo();
-		System.out.println(cuentaGabriel.dime_saldo()) ;
-
+		System.out.println(cuentaGabriel.dime_saldo());
 	}
 
 }
