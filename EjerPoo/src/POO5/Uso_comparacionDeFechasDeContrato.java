@@ -3,7 +3,7 @@ package POO5;
 public class Uso_comparacionDeFechasDeContrato {
 
 	public static void main(String[] args) {
-		Empleado empleado3 = new Empleado("Javier Legal", 1800, 2022, 12, 10);
+		Empleado empleado3 = new Empleado("Javier Legal", 7500, 2022, 12, 10);
 		Empleado empleado4 = new Empleado("Gael Legal", 1200, 2024, 04, 01);
 		// Aquí vamos a comprobar quien fue contratado primero
 		if (empleado3.dameFechaContrato().before(empleado4.dameFechaContrato())) {

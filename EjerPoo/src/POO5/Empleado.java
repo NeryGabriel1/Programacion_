@@ -1,23 +1,24 @@
 package POO5;
 
 import java.util.*;
+
 public class Empleado {
 	public Empleado(String nom, double sue, int agno, int mes, int dia) {
 		nombre=nom;
 		sueldo=sue;
-		
+
 		GregorianCalendar calendario = new GregorianCalendar (agno, mes-1, dia);
 		alta_contrato=calendario.getTime();
 	}
-	
+
 	private String nombre;
 	private double sueldo;
 	private Date alta_contrato;
-	
+
 	public String dameNombre() { //getter
 		return nombre;
 	}
-	
+
 	public void estableceNombre() { //setter
 		nombre=nombre;
 	}
@@ -30,8 +31,8 @@ public class Empleado {
 	public void estableceFechaContrato() { //setter
 		alta_contrato=alta_contrato;
 	}
-	
-	// Método para umentar el sueldo
+
+	// Método para aumentar el sueldo
 		public void subeSueldo(double aumento) {
 			if (aumento > 0) {
 				this.sueldo += this.sueldo*(aumento*0.01);
@@ -46,8 +47,5 @@ public class Empleado {
 			resultado += "\nFecha de contrato: " + this.alta_contrato +"\n";
 			return resultado;
 		}
- 
+
 }
-
-
-
