@@ -1,6 +1,6 @@
 package POO3;
 
-import java.util.ArrayList;
+import java.util.*;
 
 public class Hotel {
 	ArrayList<Habitacion> habitaciones;// crea una lista
