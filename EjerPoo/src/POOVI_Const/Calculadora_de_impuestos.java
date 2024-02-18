@@ -13,7 +13,7 @@ public class Calculadora_de_impuestos {
 		this.precioFinal = precioProducto + impuesto;
 	}
 
-	// getter para el precio final
+	// getter 
 	public String dimePrecioFinal() {
 		return "El pecio final del producto es de " + this.precioFinal + " €";
 	}
