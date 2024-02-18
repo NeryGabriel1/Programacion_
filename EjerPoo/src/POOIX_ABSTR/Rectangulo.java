@@ -4,6 +4,7 @@ public class Rectangulo extends FigurasGeo {
 	private double base;
 	private double altura;
 
+	// contructor
 	public Rectangulo(double base, double altura) {
 		this.altura = altura;
 		this.base = base;

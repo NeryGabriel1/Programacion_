@@ -5,7 +5,6 @@ import javax.swing.JOptionPane;
 public class Use_figura {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		FigurasGeo[] figura = new FigurasGeo[2];
 
 		figura[0] = new Circulo(9);

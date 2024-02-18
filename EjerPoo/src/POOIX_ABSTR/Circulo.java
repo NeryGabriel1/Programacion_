@@ -7,7 +7,6 @@ public class Circulo extends FigurasGeo {
 	public Circulo(double radio) {
 		this.radio = radio;
 	}
-
 	@Override
 	double calcularArea() {
 		return Math.PI * Math.pow(this.radio, 2);
