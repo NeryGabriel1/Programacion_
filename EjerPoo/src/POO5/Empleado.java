@@ -8,7 +8,8 @@ public class Empleado {
 		sueldo=sue;
 
 		GregorianCalendar calendario = new GregorianCalendar (agno, mes-1, dia);
-		alta_contrato=calendario.getTime();
+		alta_contrato=calendario.getTime()
+				;
 	}
 
 	private String nombre;
