@@ -10,6 +10,7 @@ public class Empleado {
 		GregorianCalendar calendario = new GregorianCalendar (agno, mes-1, dia);
 		alta_contrato=calendario.getTime()
 				;
+		//comentario prueba commit
 	}
 
 	private String nombre;
