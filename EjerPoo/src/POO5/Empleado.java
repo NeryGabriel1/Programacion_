@@ -15,7 +15,7 @@ public class Empleado {
 	private double sueldo;
 	private Date alta_contrato;
 
-	public String dameNombre() { //getter
+	public String dameNombre() {
 		return nombre;
 	}
 
